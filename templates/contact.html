@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+
+
+{% block content %}
+<body>
+  
+  <form style="text-align: center;" style=background:chartreuse action="/register" method="POST">
+      Name<input  name="name" placeholder="Enter name" type="text"><br>
+      <br>
+      Mail<input name="mail" placeholder="Enter email" type="email"><br>
+      <br>
+      Feedback<input name="feedback" placeholder="Enter Feedback" type="text"><br>
+      <br>
+      <input type="submit" value="submit">
+
+  </form>
+</body>
+
+{% endblock %}

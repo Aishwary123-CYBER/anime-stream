@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+<style>
+    h1{
+        text-align: center;
+    }
+</style>
+{% block content %}
+
+
+    {% for user in users %}
+     <div style="text-align: center;"><h1> {{user.name}} is Registered</h1></div>
+
+    {% endfor %}
+ 
+    
+{% endblock %}
